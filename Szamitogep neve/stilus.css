@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0; 	
+/*border: solid 1px black;*/
+}
+
+html{
+	background: #FFF;
+}
+body{
+
+	width: 90%;
+	margin: auto;
+	background-image: url('alap.jpg');
+	border: solid 1px transparent;
+}
+
+div{
+	
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 60px;
+}
+
+hr{
+	height: 8px;
+	background: gray;
+	border-radius: 6px;
+	margin: 10px 0;
+}
+h1, h3{
+	text-align: center;
+	color: rgb(80, 80, 80);
+}
+
+.belso{
+	padding-left: 50px;
+}

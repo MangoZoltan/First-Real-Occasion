@@ -1,38 +1,53 @@
-*{
-margin: 0;
-padding: 0; 	
-/*border: solid 1px black;*/
+* {
+/*	border: 1px solid red;*/
 }
 
-html{
-	background: #FFF;
+html {
+	background-color: #fff;
 }
-body{
 
-	width: 90%;
+body {
+	background-image: url('./alap.jpg');
+	width: 80%;
 	margin: auto;
-	background-image: url('alap.jpg');
-	border: solid 1px transparent;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	padding-bottom: 60px;
+	box-shadow: 5px 5px 8px #333;
+	border-radius: 15px;
 }
 
-div{
-	
+div {
+	/* margin: 10px 10px 10px 10px; Felső/jobb/alsó/bal
+	margin: 10px 10px 10px; Felső/jobb-bal/alsó
+	margin: 10px 10px; Felső-alsó/jobb-bal
+	margin: 10px; Mind a négyet. */
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-top: 60px;
+	margin-top: 64px;
 }
 
-hr{
+hr {
+	/* width: 50%; */
 	height: 8px;
-	background: gray;
+	background-color: grey;
 	border-radius: 6px;
-	margin: 10px 0;
+	clear: both;
 }
-h1, h3{
+h1, h3 {
 	text-align: center;
 	color: rgb(80, 80, 80);
 }
 
-.belso{
+.belso {
 	padding-left: 50px;
+}
+
+img{
+	width: 150px;
+	float: right;
+}
+
+#copy{
+	text-align: right;
 }
